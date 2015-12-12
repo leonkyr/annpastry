@@ -1,6 +1,7 @@
 #!/bin/bash
 
-git checkout --orphan gh-pages
+# git checkout --orphan gh-pages
+git checkout gh-pages
 npm install
 npm run build
 shopt -s extglob
