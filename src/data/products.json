@@ -5,7 +5,8 @@
     "category": "pastry",
     "price": "29.90 EUR",
     "home_image": "m-product-1-570x760.jpg",
-    "product_image": "m-product-1-600x600.jpg"
+    "product_image": "m-product-1-600x600.jpg",
+    "page": "cake-raspberry-truffle"
   },
   {
     "id": "second",
@@ -13,7 +14,8 @@
     "category": "pastry",
     "price": "29.90 EUR",
     "home_image": "m-product-2-570x760.jpg",
-    "product_image": "m-product-2-600x600.jpg"
+    "product_image": "m-product-2-600x600.jpg",
+    "page": "cake-raspberry-truffle"
   },
   {
     "id": "third",

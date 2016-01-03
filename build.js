@@ -13,6 +13,12 @@ Metalsmith(__dirname)
   .use(metadata({
     "products": 'data/products.json'
   }))
+  .use(collections({
+    products: {
+      pattern: 'products/*.md'
+      metadata: 'data/products.json'
+    }
+  }))
   .use(permalinks({
     pattern: ':collection/:title'
   }))
